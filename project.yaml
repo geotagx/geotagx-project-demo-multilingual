@@ -65,8 +65,6 @@
       question:
         en: "Can you see a large body of water?"
         fr: "Can you see a large body of water? (FR)"
-      branch:
-        no: "floodProtectionVisible"
     -
       key: "name"
       type: "text"
