@@ -1,8 +1,8 @@
 {
-	"name":"GeoTag-X Sample Project",
-	"short_name":"sample",
-	"description":"A sample GeoTag-X project.",
-	"why":"This is a simple project that highlights GeoTag-X's features.",
+	"name":"GeoTag-X Multilingual Demo Project",
+	"short_name":"multilingual-demo",
+	"description":"A demo multilingual GeoTag-X project.",
+	"why":"This is a simple project that highlights GeoTag-X's multilingual features.",
 	"questionnaire":[
 		{
 			"key":"isWaterVisible",
