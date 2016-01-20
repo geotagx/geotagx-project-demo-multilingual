@@ -1,8 +1,15 @@
 {
 	"name":"GeoTag-X Multilingual Demo Project",
-	"short_name":"multilingual-demo",
-	"description":"A demo multilingual GeoTag-X project.",
-	"why":"This is a simple project that highlights GeoTag-X's multilingual features.",
+	"short_name":"demo-multilingual",
+	"description":"A multilingual demo project.",
+	"languages":{
+		"default":"en",
+		"available":["en", "fr"]
+	},
+	"why":{
+		"en":"This is a simple project that showcases GeoTag-X's multilingual features.",
+		"fr":"Ceci est un projet qui a pour but de vous montrer les capabilités multilingues de GeoTag-X."
+	},
 	"questionnaire":[
 		{
 			"key":"isWaterVisible",
