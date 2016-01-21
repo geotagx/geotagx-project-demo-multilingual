@@ -2,9 +2,12 @@
 	"name":"GeoTag-X Multilingual Demo Project",
 	"short_name":"demo-multilingual",
 	"description":"A multilingual demo project.",
-	"languages":{
+	"language":{
 		"default":"en",
-		"available":["en", "fr"]
+		"available":{
+			"en":"English",
+			"fr":"Français"
+		}
 	},
 	"why":{
 		"en":"This is a simple project that showcases GeoTag-X's multilingual features.",
