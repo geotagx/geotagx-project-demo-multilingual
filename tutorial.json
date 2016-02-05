@@ -1,0 +1,15 @@
+{
+    "tutorial":{
+        "default-message":"Try again! If you are not sure what to look for, check out the help for more information.",
+        "exercises":[
+            {
+                "subject":{
+                    "url":"http://i.imgur.com/yZrJpI3.jpg",
+                    "source":"http://imgur.com/r/earthporn/yZrJpI3"
+                },
+                "assertions":{
+                }
+            }
+        ]
+    }
+}
