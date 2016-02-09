@@ -1,6 +1,6 @@
 {
     "task-presenter":{
-        "language":{
+        "locale":{
             "default":"en-US",
             "available":[
                 "en-US",
