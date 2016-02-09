@@ -19,7 +19,7 @@
                 {
                     "key":"isWaterVisible",
                     "type":"binary",
-                    "question":{
+                    "title":{
                         "en-US":"Can you see any water in the photo?",
                         "fr-CH":"Can you see any water in the photo? (fr-CH)"
                     },
@@ -35,7 +35,7 @@
                 {
                     "key":"waterColor",
                     "type":"select",
-                    "question":{
+                    "title":{
                         "en-US":"What color is the water?",
                         "fr-CH":"Quelle est la couleur de l'eau?"
                     },
@@ -75,7 +75,7 @@
                 {
                     "key":"smallPoolsOfWaterVisible",
                     "type":"binary",
-                    "question":{
+                    "title":{
                         "en-US":"Can you see small pools of water?",
                         "fr-CH":"Can you see small pools of water? (fr-CH)"
                     },
@@ -86,7 +86,7 @@
                 {
                     "key":"smallPoolsOfWaterNearShelters",
                     "type":"binary",
-                    "question":{
+                    "title":{
                         "en-US":"Are these small pools of water near human shelters or a settlement?",
                         "fr-CH":"Are these small pools of water near human shelters or a settlement? (fr-CH)"
                     },
@@ -95,7 +95,7 @@
                 {
                     "key":"largeBodyOfWaterVisible",
                     "type":"binary",
-                    "question":{
+                    "title":{
                         "en-US":"Can you see a large body of water?",
                         "fr-CH":"Can you see a large body of water? (fr-CH)"
                     }
@@ -103,7 +103,7 @@
                 {
                     "key":"name",
                     "type":"text",
-                    "question":{
+                    "title":{
                         "en-US":"Please enter your name",
                         "fr-CH":"Please enter your name (fr-CH)"
                     },
