@@ -8,6 +8,45 @@
                     "source":"http://imgur.com/r/earthporn/yZrJpI3"
                 },
                 "assertions":{
+                    "isWaterVisible":{
+                        "expects":"yes",
+                        "default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+                        "messages":{
+                            "yes":"Well done! There is a water-body in this photo.",
+                            "no":"Try again. Are you sure there is no water? Check out the help for information on what you should be looking for."
+                        }
+                    },
+                    "waterColor":{
+                        "expects":"aquablue",
+                        "default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+                        "messages":{
+                            "aquablue":"Correct! The water has an aqua blue hue."
+                        }
+                    },
+                    "smallPoolsOfWaterVisible":{
+                        "expects":"no",
+                        "default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+                        "messages":{
+                            "no":"Well done! There are no small pools of water in this photo.",
+                            "yes":"Whoa! Are you sure that you see a small pool of water? Check out the help for information on what you should be looking for."
+                        }
+                    },
+                    "largeBodyOfWaterVisible":{
+                        "expects":"yes",
+                        "default_message":"Try again. If you are not sure what to look for, check out the help for more information.",
+                        "messages":{
+                            "yes":"Correct! You are looking at the North Pacific Ocean, which is a (very) large water body.",
+                            "no":"Hmmm, are you sure? Check out the help for information on what you should be looking for."
+                        }
+                    },
+                    "name":{
+                        "autocomplete":true,
+                        "expects":"A little known secret ...",
+                        "default_message":"Due to the nature of the input (non-deterministic) required for this question, it has been answered for you.",
+                        "messages":{
+                            "A little known secret ...":"That's right, Jack!"
+                        }
+                    }
                 }
             }
         ]
