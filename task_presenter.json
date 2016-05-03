@@ -1,14 +1,14 @@
 {
     "locale":{
-        "default":"en-US",
+        "default":"en",
         "available":[
-            "en-US",
-            "fr-CH"
+            "en",
+            "fr"
         ]
     },
     "why":{
-        "en-US":"This is a simple project that shows you how to create a multilingual questionnaire.",
-        "fr-CH":"Ceci est un projet qui a pour but de vous montrer comment créer une questionnaire multilingue."
+        "en":"This is a simple project that shows you how to create a multilingual questionnaire.",
+        "fr":"Ceci est un projet qui a pour but de vous montrer comment créer une questionnaire multilingue."
     },
     "subject":{
         "type":"image"
@@ -19,12 +19,12 @@
                 "key":"isWaterVisible",
                 "type":"binary",
                 "title":{
-                    "en-US":"Can you see any water in the photo?",
-                    "fr-CH":"Can you see any water in the photo? (fr-CH)"
+                    "en":"Can you see any water in the photo?",
+                    "fr":"Can you see any water in the photo? (fr)"
                 },
                 "hint":{
-                    "en-US":"More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes?",
-                    "fr-CH":"More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes? (fr-CH)"
+                    "en":"More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes?",
+                    "fr":"More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes? (fr)"
                 },
                 "branch":{
                     "yes":"waterColor",
@@ -35,36 +35,36 @@
                 "key":"waterColor",
                 "type":"select",
                 "title":{
-                    "en-US":"What color is the water?",
-                    "fr-CH":"Quelle est la couleur de l'eau?"
+                    "en":"What color is the water?",
+                    "fr":"Quelle est la couleur de l'eau?"
                 },
                 "parameters":{
                     "options":[
                         {
                             "label":{
-                                "en-US":"Red",
-                                "fr-CH":"Rouge"
+                                "en":"Red",
+                                "fr":"Rouge"
                             },
                             "value":"Red"
                         },
                         {
                             "label":{
-                                "en-US":"Aqua Blue",
-                                "fr-CH":"Bleu Aquatique"
+                                "en":"Aqua Blue",
+                                "fr":"Bleu Aquatique"
                             },
                             "value":"AquaBlue"
                         },
                         {
                             "label":{
-                                "en-US":"Green",
-                                "fr-CH":"Verte"
+                                "en":"Green",
+                                "fr":"Verte"
                             },
                             "value":"Green"
                         },
                         {
                             "label":{
-                                "en-US":"Orange",
-                                "fr-CH":"Orange"
+                                "en":"Orange",
+                                "fr":"Orange"
                             },
                             "value":"Orange"
                         }
@@ -75,8 +75,8 @@
                 "key":"smallPoolsOfWaterVisible",
                 "type":"binary",
                 "title":{
-                    "en-US":"Can you see small pools of water?",
-                    "fr-CH":"Can you see small pools of water? (fr-CH)"
+                    "en":"Can you see small pools of water?",
+                    "fr":"Can you see small pools of water? (fr)"
                 },
                 "branch":{
                     "no":"largeBodyOfWaterVisible"
@@ -86,8 +86,8 @@
                 "key":"smallPoolsOfWaterNearShelters",
                 "type":"binary",
                 "title":{
-                    "en-US":"Are these small pools of water near human shelters or a settlement?",
-                    "fr-CH":"Are these small pools of water near human shelters or a settlement? (fr-CH)"
+                    "en":"Are these small pools of water near human shelters or a settlement?",
+                    "fr":"Are these small pools of water near human shelters or a settlement? (fr)"
                 },
                 "branch":"name"
             },
@@ -95,21 +95,21 @@
                 "key":"largeBodyOfWaterVisible",
                 "type":"binary",
                 "title":{
-                    "en-US":"Can you see a large body of water?",
-                    "fr-CH":"Can you see a large body of water? (fr-CH)"
+                    "en":"Can you see a large body of water?",
+                    "fr":"Can you see a large body of water? (fr)"
                 }
             },
             {
                 "key":"name",
                 "type":"text",
                 "title":{
-                    "en-US":"Please enter your name",
-                    "fr-CH":"Please enter your name (fr-CH)"
+                    "en":"Please enter your name",
+                    "fr":"Please enter your name (fr)"
                 },
                 "parameters":{
                     "placeholder":{
-                        "en-US":"A fake name will do",
-                        "fr-CH":"A fake name will do (fr-CH)"
+                        "en":"A fake name will do",
+                        "fr":"A fake name will do (fr)"
                     }
                 }
             }
