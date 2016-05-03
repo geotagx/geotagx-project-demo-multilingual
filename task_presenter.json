@@ -1,115 +1,115 @@
 {
-    "language":{
-        "default":"en",
-        "available":[
+    "language": {
+        "default": "en",
+        "available": [
             "en",
             "fr"
         ]
     },
-    "why":{
-        "en":"This is a simple project that shows you how to create a multilingual questionnaire.",
-        "fr":"Ceci est un projet qui a pour but de vous montrer comment créer une questionnaire multilingue."
+    "why": {
+        "en": "This is a simple project that shows you how to create a multilingual questionnaire.",
+        "fr": "Ceci est un projet qui a pour but de vous montrer comment créer une questionnaire multilingue."
     },
-    "subject":{
-        "type":"image"
+    "subject": {
+        "type": "image"
     },
-    "questionnaire":{
-        "questions":[
+    "questionnaire": {
+        "questions": [
             {
-                "key":"isWaterVisible",
-                "type":"binary",
-                "title":{
-                    "en":"Can you see any water in the photo?",
-                    "fr":"Can you see any water in the photo? (fr)"
+                "key": "isWaterVisible",
+                "type": "binary",
+                "title": {
+                    "en": "Can you see any water in the photo?",
+                    "fr": "Can you see any water in the photo? (fr)"
                 },
-                "hint":{
-                    "en":"More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes?",
-                    "fr":"More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes? (fr)"
+                "hint": {
+                    "en": "More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes?",
+                    "fr": "More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes? (fr)"
                 },
-                "branch":{
-                    "yes":"waterColor",
-                    "no":"name"
+                "branch": {
+                    "yes": "waterColor",
+                    "no": "name"
                 }
             },
             {
-                "key":"waterColor",
-                "type":"select",
-                "title":{
-                    "en":"What color is the water?",
-                    "fr":"Quelle est la couleur de l'eau?"
+                "key": "waterColor",
+                "type": "select",
+                "title": {
+                    "en": "What color is the water?",
+                    "fr": "Quelle est la couleur de l'eau?"
                 },
-                "parameters":{
-                    "options":[
+                "parameters": {
+                    "options": [
                         {
-                            "label":{
-                                "en":"Red",
-                                "fr":"Rouge"
+                            "label": {
+                                "en": "Red",
+                                "fr": "Rouge"
                             },
-                            "value":"Red"
+                            "value": "Red"
                         },
                         {
-                            "label":{
-                                "en":"Aqua Blue",
-                                "fr":"Bleu Aquatique"
+                            "label": {
+                                "en": "Aqua Blue",
+                                "fr": "Bleu Aquatique"
                             },
-                            "value":"AquaBlue"
+                            "value": "AquaBlue"
                         },
                         {
-                            "label":{
-                                "en":"Green",
-                                "fr":"Verte"
+                            "label": {
+                                "en": "Green",
+                                "fr": "Verte"
                             },
-                            "value":"Green"
+                            "value": "Green"
                         },
                         {
-                            "label":{
-                                "en":"Orange",
-                                "fr":"Orange"
+                            "label": {
+                                "en": "Orange",
+                                "fr": "Orange"
                             },
-                            "value":"Orange"
+                            "value": "Orange"
                         }
                     ]
                 }
             },
             {
-                "key":"smallPoolsOfWaterVisible",
-                "type":"binary",
-                "title":{
-                    "en":"Can you see small pools of water?",
-                    "fr":"Can you see small pools of water? (fr)"
+                "key": "smallPoolsOfWaterVisible",
+                "type": "binary",
+                "title": {
+                    "en": "Can you see small pools of water?",
+                    "fr": "Can you see small pools of water? (fr)"
                 },
-                "branch":{
-                    "no":"largeBodyOfWaterVisible"
+                "branch": {
+                    "no": "largeBodyOfWaterVisible"
                 }
             },
             {
-                "key":"smallPoolsOfWaterNearShelters",
-                "type":"binary",
-                "title":{
-                    "en":"Are these small pools of water near human shelters or a settlement?",
-                    "fr":"Are these small pools of water near human shelters or a settlement? (fr)"
+                "key": "smallPoolsOfWaterNearShelters",
+                "type": "binary",
+                "title": {
+                    "en": "Are these small pools of water near human shelters or a settlement?",
+                    "fr": "Are these small pools of water near human shelters or a settlement? (fr)"
                 },
-                "branch":"name"
+                "branch": "name"
             },
             {
-                "key":"largeBodyOfWaterVisible",
-                "type":"binary",
-                "title":{
-                    "en":"Can you see a large body of water?",
-                    "fr":"Can you see a large body of water? (fr)"
+                "key": "largeBodyOfWaterVisible",
+                "type": "binary",
+                "title": {
+                    "en": "Can you see a large body of water?",
+                    "fr": "Can you see a large body of water? (fr)"
                 }
             },
             {
-                "key":"name",
-                "type":"text",
-                "title":{
-                    "en":"Please enter your name",
-                    "fr":"Please enter your name (fr)"
+                "key": "name",
+                "type": "text",
+                "title": {
+                    "en": "Please enter your name",
+                    "fr": "Please enter your name (fr)"
                 },
-                "parameters":{
-                    "placeholder":{
-                        "en":"A fake name will do",
-                        "fr":"A fake name will do (fr)"
+                "parameters": {
+                    "placeholder": {
+                        "en": "A fake name will do",
+                        "fr": "A fake name will do (fr)"
                     }
                 }
             }
