@@ -17,7 +17,6 @@
         "questions": [
             {
                 "key": "isWaterVisible",
-                "type": "binary",
                 "title": {
                     "en": "Can you see any water in the photo?",
                     "fr": "Can you see any water in the photo? (fr)"
@@ -26,6 +25,9 @@
                     "en": "More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes?",
                     "fr": "More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes? (fr)"
                 },
+                "input": {
+                    "type": "binary"
+                },
                 "branch": {
                     "yes": "waterColor",
                     "no": "name"
@@ -33,50 +35,52 @@
             },
             {
                 "key": "waterColor",
-                "type": "select",
                 "title": {
                     "en": "What color is the water?",
                     "fr": "Quelle est la couleur de l'eau?"
                 },
-                "parameters": {
+                "input": {
+                    "type": "radio-list",
                     "options": [
                         {
                             "label": {
                                 "en": "Red",
                                 "fr": "Rouge"
                             },
-                            "value": "Red"
+                            "value": "RED"
                         },
                         {
                             "label": {
                                 "en": "Aqua Blue",
                                 "fr": "Bleu Aquatique"
                             },
-                            "value": "AquaBlue"
+                            "value": "AQUA_BLUE"
                         },
                         {
                             "label": {
                                 "en": "Green",
                                 "fr": "Verte"
                             },
-                            "value": "Green"
+                            "value": "GREEN"
                         },
                         {
                             "label": {
                                 "en": "Orange",
                                 "fr": "Orange"
                             },
-                            "value": "Orange"
+                            "value": "ORANGE"
                         }
                     ]
                 }
             },
             {
                 "key": "smallPoolsOfWaterVisible",
-                "type": "binary",
                 "title": {
                     "en": "Can you see small pools of water?",
                     "fr": "Can you see small pools of water? (fr)"
+                },
+                "input": {
+                    "type": "binary"
                 },
                 "branch": {
                     "no": "largeBodyOfWaterVisible"
@@ -84,29 +88,33 @@
             },
             {
                 "key": "smallPoolsOfWaterNearShelters",
-                "type": "binary",
                 "title": {
                     "en": "Are these small pools of water near human shelters or a settlement?",
                     "fr": "Are these small pools of water near human shelters or a settlement? (fr)"
+                },
+                "input": {
+                    "type": "binary"
                 },
                 "branch": "name"
             },
             {
                 "key": "largeBodyOfWaterVisible",
-                "type": "binary",
                 "title": {
                     "en": "Can you see a large body of water?",
                     "fr": "Can you see a large body of water? (fr)"
+                },
+                "input": {
+                    "type": "binary"
                 }
             },
             {
                 "key": "name",
-                "type": "text",
                 "title": {
                     "en": "Please enter your name",
                     "fr": "Please enter your name (fr)"
                 },
-                "parameters": {
+                "input": {
+                    "type": "text",
                     "placeholder": {
                         "en": "A fake name will do",
                         "fr": "A fake name will do (fr)"
