@@ -40,7 +40,9 @@
                     "fr": "Quelle est la couleur de l'eau?"
                 },
                 "input": {
-                    "type": "radio-list",
+                    "type": "multiple-choice",
+                    "allow-multiple-answers": true,
+                    "allow-other-option": false,
                     "options": [
                         {
                             "label": {
