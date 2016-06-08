@@ -26,7 +26,7 @@
                     "fr": "More specifically, can you see small water bodies like puddles, or large ones such as rivers or lakes? (fr)"
                 },
                 "input": {
-                    "type": "binary"
+                    "type": "polar"
                 },
                 "branch": {
                     "yes": "waterColor",
@@ -82,7 +82,7 @@
                     "fr": "Can you see small pools of water? (fr)"
                 },
                 "input": {
-                    "type": "binary"
+                    "type": "polar"
                 },
                 "branch": {
                     "no": "largeBodyOfWaterVisible"
@@ -95,7 +95,7 @@
                     "fr": "Are these small pools of water near human shelters or a settlement? (fr)"
                 },
                 "input": {
-                    "type": "binary"
+                    "type": "polar"
                 },
                 "branch": "name"
             },
@@ -106,7 +106,7 @@
                     "fr": "Can you see a large body of water? (fr)"
                 },
                 "input": {
-                    "type": "binary"
+                    "type": "polar"
                 }
             },
             {
