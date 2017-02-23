@@ -2,5 +2,6 @@
     "name": "GeoTag-X Multilingual Demo Project",
     "short_name": "demo-multilingual",
     "description": "A multilingual demo project.",
-    "repository": "https://github.com/geotagx/geotagx-project-demo-multilingual.git"
+    "repository": "https://github.com/geotagx/geotagx-project-demo-multilingual.git",
+    "do_not_track": false
 }
